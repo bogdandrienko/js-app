@@ -1,14 +1,31 @@
 "use strict";
 
-const category = 'toys';
-console.log(category);
-alert('внимание!');
+const valueFilms = prompt('Сколько?', '3');
+alert(valueFilms);
 
+const personalDB = {
+    count: valueFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const  a = prompt('First?', ''),
+       b = prompt('Second?', ''),
+       c = prompt('Third?', ''),
+       d = prompt('Fourth?', '');
+
+personalDB[a] = b;
+personalDB[c] = d;
+
+document.write(a);
+document.write(c);
 
 //let arr = [1, 2, 3, 4, 5];
 //console.log(arr[4]);
 //
-//alert('Шыршень')
+//alert(arr)
 
 //const result = confirm('Макси слабак?');
 //alert(result + 5);

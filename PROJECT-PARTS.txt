@@ -1,5 +1,5 @@
 # Visual Studio Code
- # addons:
+ # addons: npm; node.js; jshint; 
 
 #Git
 #GitHub
