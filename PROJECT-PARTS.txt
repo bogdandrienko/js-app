@@ -4,3 +4,5 @@
 #Git
 #GitHub
 #GithubDesktop
+
+#Операторы: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table"

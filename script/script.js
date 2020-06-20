@@ -1,7 +1,7 @@
 //"use strict";
 
-//let param = 123;
-//console.log(param);
+const category = 'toys';
+console.log(category);
 
 //let arr = [1, 2, 3, 4, 5];
 //console.log(arr[4]);
@@ -27,5 +27,3 @@
 
 //const category = 'toys';
 //alert(`Привет, ${category}`);
-
-//Операторы: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table"
