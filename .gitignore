@@ -1,1 +1,3 @@
-# исключения
+// Ignore the push to Github
+
+/node_modules/
