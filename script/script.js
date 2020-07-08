@@ -9,7 +9,7 @@ document.querySelectorAll("fieldset.with-placeholder input").forEach(function(el
       if (this.value == "") {
         this.parentNode.querySelector(".placeholder").classList.remove("active");
       }
-    })
+    });
   });
   
   function updateMouthEyes() {
@@ -28,7 +28,7 @@ document.querySelectorAll("fieldset.with-placeholder input").forEach(function(el
     let movePos = email.value.length > 30 ? 13.33 : email.value.length / 2.25 ;
     pupilRight.setAttribute("cy", 75);
     pupilLeft.setAttribute("cy", 76);
-    pupilRight.setAttribute("cx", 78 + movePos)
+    pupilRight.setAttribute("cx", 78 + movePos);
     pupilLeft.setAttribute("cx", 113 + movePos);
   }
   
