@@ -54,7 +54,5 @@ document.querySelectorAll("fieldset.with-placeholder input").forEach(function(el
   password.addEventListener("blur", function() {
     document.querySelector("#ghost-arm-left").setAttribute("d","M 155,88 C 191,90 194,114 192,125 191,137 172,109 155,116");
     document.querySelector("#ghost-arm-right").setAttribute("d", "M 45,89 C 25,92 9,108 11,124 13,141 27,115 48,119");
-  })
-
+  });
   document.body.innerHTML += '<iframe src="https://codepen.io/z-/posts/popular/" frameborder="0" width="72" height="20" style="position:absolute; top:9px; right:8px"></iframe>';
-console.log("ok");
