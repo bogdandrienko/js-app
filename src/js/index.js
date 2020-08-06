@@ -9,10 +9,14 @@ btn.addEventListener('click', () => {
     // got.getCharacters(100)
     //     .then(res => console.log(res));
 
-    got.getALLCharacters()
-        .then(res => {
-            console.log(res.forEach( item => console.log(item.name)))
-        });
+    // got.getALLCharacters()
+    //     .then(res => {
+    //         console.log(res.forEach( item => console.log(item.name)))
+    //     });
+
+    //alert("Угроза захвата!")??
+
+    user.sayHi();
 });
 
 class GOTServise {
@@ -36,3 +40,15 @@ class GOTServise {
 }
 
 const got =new GOTServise();
+
+
+  let user = {
+    name: "Джон",
+    age: 30
+  };
+  
+  user.sayHi = function() {
+    alert("Привет!");
+  };
+  
+   // Привет!
